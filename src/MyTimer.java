@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MyTimer implements ActionListener {
-    JFrame frame = new JFrame("Timer");
+    JFrame frame = new JFrame("Stopwatch");
     JLabel timeLabel = new JLabel("00:00:00");
     JButton startBtn = new JButton("Start");
     JButton resetBtn = new JButton("Reset");
